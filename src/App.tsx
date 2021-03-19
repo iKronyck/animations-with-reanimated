@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {StatusBar, StyleSheet} from 'react-native';
 import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
 import Navigation from './routes';
 import colors from './theme/colors';
@@ -8,6 +8,7 @@ const App: React.FC = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
+        <StatusBar barStyle={'light-content'} />
         <Navigation />
       </SafeAreaView>
     </SafeAreaProvider>
