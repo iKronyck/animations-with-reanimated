@@ -1,9 +1,15 @@
 import * as React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
+import {NavigationScreenProp} from 'react-navigation';
+import Header from '../../components/Header';
 
-const PanGesture: React.FC = () => (
+interface PanGestureProps {
+  navigation: NavigationScreenProp<any, any>;
+}
+
+const PanGesture: React.FC<PanGestureProps> = ({navigation}) => (
   <View>
-    <Text>Hello gesture</Text>
+    <Header tittle="Pan Gesture" onBack={() => navigation.goBack()} />
   </View>
 );
 
