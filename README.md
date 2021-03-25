@@ -5,6 +5,9 @@
 
 ## Pan Gesture Handler
 
-https://user-images.githubusercontent.com/12678606/112428751-43fbef00-8d01-11eb-920c-654a6b292849.mov
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/12678606/112430396-b372de00-8d03-11eb-9b88-e7a2343e61b4.gif)
+
+
+
 
 
