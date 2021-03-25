@@ -15,7 +15,7 @@ interface ContainerProps {
   children: React.ReactNode;
 }
 
-const Container: React.FC = ({children} : ContainerProps) => {
+const Container: React.FC<ContainerProps> = ({children}) => {
   return <View style={styles.container}>{children}</View>;
 };
 
