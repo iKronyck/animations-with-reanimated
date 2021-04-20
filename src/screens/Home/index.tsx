@@ -27,6 +27,11 @@ const Home: React.FC<HomeProps> = ({navigation}) => (
         onPress={() => navigation.navigate('PanGesture')}
         text="Pan Gesture"
       />
+      <CardItem
+        name="message-processing-outline"
+        onPress={() => navigation.navigate('Timing')}
+        text="Timing"
+      />
       <CardItem name="cards" onPress={() => {}} text="Cards" />
     </View>
   </Container>

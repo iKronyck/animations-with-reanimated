@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {RootStackParamList} from '../types/navigation';
 import PanGesture from '../screens/PanGesture/index';
 import Home from '../screens/Home';
+import Timing from '../screens/Timing';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -14,6 +15,7 @@ function RootNavigator() {
       initialRouteName="Home">
       <Stack.Screen name="PanGesture" component={PanGesture} />
       <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Timing" component={Timing} />
     </Stack.Navigator>
   );
 }
