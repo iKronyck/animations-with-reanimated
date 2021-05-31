@@ -5,7 +5,15 @@
 
 ## Pan Gesture Handler
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/12678606/112430396-b372de00-8d03-11eb-9b88-e7a2343e61b4.gif)
+https://user-images.githubusercontent.com/12678606/115478353-31db7680-a203-11eb-8bab-ed53cd695019.mov
+
+## Timing
+
+https://user-images.githubusercontent.com/12678606/115478460-6ea76d80-a203-11eb-93cc-6b84a3f7c578.mov
+
+
+
+
 
 
 
